@@ -2,7 +2,7 @@
 
 Take a packed sprite sheet and separate it out into smaller sprites, a basic sprite sheet unpacker tool.
 
-### Demo
+## Demo
 
 ![alt tag](http://jarednbrowne.com/GitHubImages/SpriteSheetDecomposerDemo.gif)
 
@@ -10,7 +10,7 @@ Take a packed sprite sheet and separate it out into smaller sprites, a basic spr
 
  Click on 'release' at the top, download the executable. Learn how to use it below.
 
-### How to use
+## How to use
 
 Step 1:
 Load Spritesheet
@@ -41,7 +41,7 @@ Save configuration.
 Step 9:
 Export to disk.
 
-### Explanation of Menu
+## Explanation of Menu
 
 ![alt tag](http://jarednbrowne.com/GitHubImages/SpriteSheetMenu.png)
 
