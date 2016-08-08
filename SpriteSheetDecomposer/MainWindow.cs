@@ -29,8 +29,6 @@ namespace SpriteSheetDecomposer
 
         private void openSprite()
         {
-            this.Height = this.Height < 800 ? 800 : this.Height;
-
             OpenFileDialog openFileDialog1 = new OpenFileDialog();
 
             openFileDialog1.Filter = "Image files (*.jpg, *.jpeg, *.jpe, *.jfif, *.png) | *.jpg; *.jpeg; *.jpe; *.jfif; *.png";
@@ -41,6 +39,7 @@ namespace SpriteSheetDecomposer
             {
                 try
                 {
+                    this.Height = this.Height < 800 ? 800 : this.Height;
                     loadXmlBtn.Enabled = true;
                     sliceBtn.Enabled = true;
                     _spriteSheet.LoadAsync(openFileDialog1.FileName);

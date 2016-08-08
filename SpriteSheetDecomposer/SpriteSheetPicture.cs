@@ -513,7 +513,7 @@ namespace SpriteSheetDecomposer
             //export singles
             foreach (var singleRect in allSingleRects)
             {
-                ExportImageFile(selectedPath, new[] { singleRect.value }, singleRect.Id.ToString(), intoSubfolder);
+                ExportImageFile(selectedPath, new[] { singleRect.value }, singleRect.ExportNameGroupId.HasValue ? singleRect.ExportName : singleRect.Id.ToString(), intoSubfolder);
                 progressValue += 1;
                 progress.Report(progressValue);
             }
